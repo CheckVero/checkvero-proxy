@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Check Vero — Links</title>
+  <meta name="description" content="All official links for Check Vero.">
+  <meta property="og:title" content="Check Vero — Fraud‑Proof Phone Number Verification">
+  <meta property="og:description" content="Verify business phone numbers with cryptographic audit logs.">
+  <meta property="og:image" content="https://www.checkvero.org/og-image.svg">
+  <meta property="og:url" content="https://www.checkvero.org/links/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="https://www.checkvero.org/favicon.svg">
+  <style>
+    :root{
+      --cv-blue:#0B3D91; --cv-teal:#0E7C86; --ink:#0B1B2B; --muted:#6A7A90; --bg:#F5F8FC; --card:#FFFFFF;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font:16px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,Helvetica,Arial,sans-serif;
+      color:var(--ink);
+      background: radial-gradient(1200px 600px at 10% -10%, rgba(11,61,145,.08), transparent),
+                  radial-gradient(1000px 500px at 100% 0%, rgba(14,124,134,.08), transparent),
+                  var(--bg);
+    }
+    .wrap{max-width:720px; margin:48px auto; padding:24px}
+    .card{
+      background:var(--card); border-radius:20px; padding:28px;
+      box-shadow:0 8px 40px rgba(9,30,66,.08), 0 2px 10px rgba(9,30,66,.05);
+      border:1px solid rgba(11,61,145,.06);
+    }
+    .brand{display:flex; align-items:center; gap:14px; margin-bottom:12px}
+    .brand img{width:44px; height:44px}
+    .brand h1{font-size:22px; margin:0; letter-spacing:.2px}
+    p.sub{margin:0 0 20px; color:var(--muted)}
+    .btns{display:grid; gap:12px}
+    .btn{
+      display:flex; align-items:center; justify-content:center; gap:10px;
+      padding:14px 16px; border-radius:14px; text-decoration:none; font-weight:600; color:#fff;
+      background:linear-gradient(135deg,var(--cv-blue),var(--cv-teal));
+      box-shadow:0 6px 16px rgba(11,61,145,.25); transition:transform .06s ease, box-shadow .2s ease;
+    }
+    .btn:hover{transform:translateY(-1px); box-shadow:0 10px 22px rgba(11,61,145,.28)}
+    .btn.alt{background:#fff; color:var(--cv-blue); border:2px solid rgba(11,61,145,.2)}
+    .grid{display:grid; grid-template-columns:1fr 1fr; gap:12px}
+    @media (max-width:640px){.grid{grid-template-columns:1fr}}
+    footer{margin-top:16px; text-align:center; color:var(--muted); font-size:13px}
+    footer a{color:var(--cv-blue); text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="brand">
+        <img src="https://www.checkvero.org/logo/checkvero_mark.svg" alt="Check Vero">
+        <h1>Check Vero — Official Links</h1>
+      </div>
+      <p class="sub">Verify business phone numbers with cryptographic audit logs. Stop spoofing and prevent fraud.</p>
+
+      <div class="btns">
+        <a class="btn" href="https://www.checkvero.org" target="_blank" rel="noopener">✨ Visit Website</a>
+        <div class="grid">
+          <a class="btn alt" href="https://www.checkvero.org/docs" target="_blank" rel="noopener">📄 Documentation</a>
+          <a class="btn alt" href="https://www.checkvero.org" target="_blank" rel="noopener">🎬 Watch Demo</a>
+        </div>
+        <div class="grid">
+          <a class="btn alt" href="mailto:marcel@checkvero.org">✉️ Email Marcel</a>
+          <a class="btn alt" href="https://www.linkedin.com/" target="_blank" rel="noopener">💼 LinkedIn</a>
+        </div>
+        <a class="btn alt" href="https://x.com/" target="_blank" rel="noopener">𝕏 Twitter / Updates</a>
+      </div>
+
+      <footer>
+        © <span id="y"></span> Check Vero · <a href="https://www.checkvero.org">www.checkvero.org</a>
+      </footer>
+    </div>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
