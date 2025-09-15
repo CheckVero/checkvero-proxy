@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "https://checkvero-oeb.caffeine.xyz/$1" }
+  ]
+}
