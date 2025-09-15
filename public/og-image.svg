@@ -1,0 +1,19 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Check Vero — Fraud-Proof Verification">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B3D91"/>
+      <stop offset="1" stop-color="#0E7C86"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g transform="translate(80,120)">
+    <rect x="0" y="0" width="140" height="140" rx="28" fill="rgba(255,255,255,0.1)"/>
+    <path d="M70 10l44 15v38c0 33-21 55-44 66-23-11-44-33-44-66V25l44-15z" fill="#fff" opacity=".9"/>
+    <path d="M50 78l14 14 32-32" fill="none" stroke="#0B3D91" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="250" y="190" font-family="Inter, Public Sans, system-ui, -apple-system, Segoe UI, Roboto" font-size="70" font-weight="800" fill="#fff">Check Vero</text>
+  <text x="250" y="260" font-family="Inter, Public Sans, system-ui, -apple-system, Segoe UI, Roboto" font-size="42" font-weight="700" fill="#E8F3FF">Fraud‑Proof Phone Number Verification</text>
+  <text x="250" y="310" font-family="Inter, Public Sans, system-ui, -apple-system, Segoe UI, Roboto" font-size="28" fill="#F5FBFF">Verify business phone numbers with cryptographic audit logs.</text>
+  <text x="250" y="350" font-family="Inter, Public Sans, system-ui, -apple-system, Segoe UI, Roboto" font-size="28" fill="#F5FBFF">Stop spoofing and prevent fraud.</text>
+  <text x="250" y="560" font-family="Inter, Public Sans, system-ui, -apple-system, Segoe UI, Roboto" font-size="26" fill="#E8F3FF">www.checkvero.org</text>
+</svg>

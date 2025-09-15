@@ -1,0 +1,14 @@
+<svg width="640" height="160" viewBox="0 0 640 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Check Vero">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B3D91"/>
+      <stop offset="1" stop-color="#0E7C86"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(8,8)">
+    <rect x="0" y="0" width="144" height="144" rx="28" fill="#1E3FA8" opacity=".08"/>
+    <path d="M72 10l44 15v38c0 33-21 55-44 66-23-11-44-33-44-66V25l44-15z" fill="url(#g)"/>
+    <path d="M52 78l14 14 32-32" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="168" y="98" font-family="Inter, Public Sans, system-ui, -apple-system, Segoe UI, Roboto" font-weight="800" font-size="64" fill="#0B3D91">Check <tspan fill="#0E7C86">Vero</tspan></text>
+  </g>
+</svg>

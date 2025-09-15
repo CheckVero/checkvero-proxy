@@ -1,0 +1,24 @@
+:root{
+  --cv-blue:#0B3D91;        /* royal blue */
+  --cv-teal:#0E7C86;        /* teal */
+  --cv-ink:#0B1324;         /* dark text */
+  --cv-slate:#1C2333;       /* deep slate */
+  --cv-bg:#F4F7FB;          /* light background */
+  --cv-white:#FFFFFF;
+
+  --cv-radius:14px;
+  --cv-shadow:0 6px 24px rgba(11,61,145,0.15);
+  --cv-font:'Inter','Public Sans',system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif;
+}
+
+/* Helpers for quick use */
+.cv-btn{
+  display:inline-flex;align-items:center;gap:.6rem;
+  padding:.8rem 1.2rem;border-radius:var(--cv-radius);
+  font-weight:600;border:none;cursor:pointer;
+  box-shadow:var(--cv-shadow);
+}
+.cv-btn--primary{background:linear-gradient(135deg,var(--cv-blue),var(--cv-teal));color:var(--cv-white);}
+.cv-badge{display:inline-block;padding:.25rem .6rem;border-radius:999px;background:rgba(11,61,145,.1);color:var(--cv-blue);font-weight:600;font-size:.85rem;}
+.cv-card{background:var(--cv-white);border-radius:var(--cv-radius);box-shadow:var(--cv-shadow);padding:1.25rem;}
+.cv-gradient{background:linear-gradient(135deg,var(--cv-blue),var(--cv-teal));color:var(--cv-white);}
