@@ -1,3 +1,5 @@
+Early demo / not maintained
+
 CHECK VERO — BRAND PACK (Vercel proxy ready)
 
 What is this?
